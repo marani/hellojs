@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:title" content="xLab" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://bouwa.zxq.net/" />
+<meta property="og:image" content="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
+<meta property="og:site_name" content="Testing" />
+<meta property="fb:admins" content="1801278613" />
+	<title>Hello HTML5</title>
+    <link rel=StyleSheet href="HelloCSS.css" type="text/css" media="screen"/>
+</head>
+
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="mainDiv">
+		<h1> HTML5 </h1>
+		<hr/>
+		<p> CSS </p>
+		<p> JS </p>
+		<p id="testOutput"></p>
+		
+		<div id="HelloCanvasContainer"> 
+    	<canvas id="HelloCanvas" onMouseDown="" >Your browser does not support the HTML5 canvas tag.</canvas>
+        </div>
+    </div> 
+    	
+    <script type="text/javascript" src="HelloJS.js"></script>
+	<div class="fb-like-holder"> 
+	<div class="fb-like" data-href="http://bouwa.zxq.net/" data-send="true" data-width="450" data-show-faces="true" data-font="segoe ui"></div>
+	</div>
+    <!--<script type="text/javascript">
+
+var c = document.getElementById("HelloCanvas");
+var ctx = c.getContext("2d");
+var grd = ctx.createLinearGradient(0,100, 500, 100);
+grd.addColorStop(0,"#FF0000");
+grd.addColorStop(1,"#FFFFFF");
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 500, 200);
+
+</script>-->
+</body>
+</html>
